@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Departments</title>
+</head>
+<style>
+    body{
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .navbar{
+        background-color: lightgreen;
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .menu-btn{
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+    }
+    .bar{
+        width: 25px;
+        height: 3px;
+        background-color: #fff;
+        margin: 3px 0;
+        transition: 0.4s;
+    }
+    .menu{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    .menu li{
+        margin-right: 20px;
+    }
+    .menu a{
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+    }
+    .menu a:hover{
+        color: #ff9900;
+    }
+    .mcon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    }
+    .ct{
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 3%;
+    padding: 20px;
+    margin-right: 10px;
+    text-align: center;
+    }
+    .elt{
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 3%;
+    padding: 20px;
+    margin-right: 10px;
+    text-align: center;
+    }
+    .elxt{
+    background-color: antiquewhite;
+    border: 2px solid black;
+    border-radius: 3%;
+    padding: 20px;
+    margin-right: 10px;
+    text-align: center;
+    }
+    #more{
+    display: none;
+    }
+    .par{
+        font-size: xx-large;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+
+
+</style>
+
+<body>
+    <div class="navbar">
+        <div class="menu-btn">
+            <div class="bar"> </div>
+            <div class="bar"> </div>
+            <div class="bar"></div>
+        </div>
+        <h2>MMSU- COLLEGE OF INDUSTRIAL TECHNOLOGY</h2>
+        <ul class="menu">
+            <li><a href="./index.html"> Home</a></li>
+            <li><a href="./abt.html"> About Us</a></li>
+        </ul>
+    </div>
+    <div class="par">
+        <p class="p2">
+            The College shall provide advanced technological training for countryside development. 
+            The college is committed to train students to become skilled workers, knowledgeable 
+            and competent industrial technicians, supervisors, and managers who will contribute 
+            immensely to the attainment of socio-economic stability of the region and the whole nation.
+        </p>
+        <h2>Department of Industrial Technology</h1>
+        <p class="p1">
+           The Department of Industrial Technology is committed to train students to 
+            become skilled workers,knowledgeable and competent industrial technicians, 
+            supervisors, and managers who will contribute immensely to the attainment of
+            socio-economic stability of the region and the whole nation. The Department 
+            focuses on technical-vocational education with specializations in civil and drafting 
+            technology, computer technology, electrical technology, electronics technology,
+            food preparation and service management, and garments technology.The Commission
+            on Higher Education awarded the renewal of the Certificate of Program Compliance
+            to the Department to offer the Bachelor of Science in Industrial Technology through
+            COPC No. 31, series of 2021. Currently, the program is awarded Level III Re-accredited
+            status by the Accrediting Agency of Chartered Colleges and Universities in the Philippines
+            (AACCUP), Inc. The 2020 curriculum of the BSInTech was approved by the Board of Regents 
+            through the BOR Resolution No. 002-REF, series of 2020. To ensure that the competencies 
+            learned from each field of specialization are industry-relevant, the major courses 
+            are designed following the Training Regulations of TESDA under the specific competencies.
+        </p>
+
+    </div>
+
+    
+
+
+    
+    <div class="mcon">
+        <div class="ct">
+            <h2>Computer Technology (CT) Faculty</h2>
+            <button onclick="toggleReadMore()"><a href="./ct.html"> READ MORE</a></button>
+        </div>
+        <div class="elt">
+            <h2>Electrical Technology (ELT) Faculty</h2>
+            <button onclick="toggleReadMore()"><a href="./elt.html">READ MORE</a></button>
+        </div>
+        <div class="elxt">
+            <h2>Electronics Technology (ELXT) Faculty</h2>
+            <button onclick="toggleReadMore()"><a href="./elxt.html">READ MORE</a></button>
+
+        </div>
+    </div>
+
+</body>
+</html>
